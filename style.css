@@ -1,6 +1,12 @@
-.grid{
+body{
     width: 100%;
+    background-color: blue;
+}
+
+.grid{
+    width: 70%;
     display: grid;
+    background-color: grey;
 }
 
 .top{
