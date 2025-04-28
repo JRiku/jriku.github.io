@@ -1,1 +1,0 @@
-# jriku.github.io
