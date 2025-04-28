@@ -1,12 +1,17 @@
+
 body{
-    width: 100%;
-    background-color: blue;
+    background-color: black;
+    height: 100%;
 }
 
 .grid{
-    width: 70%;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
     display: grid;
     background-color: grey;
+    padding: 22px;
 }
 
 .top{
@@ -14,6 +19,19 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.logo, .Whataboutism, .JPsg, p{
+.logo, .Whataboutism, .JPsg, p, a{
+    padding: 8px;
+    background-color: lightgray;
+    align-self: center;
+    justify-self: center;
     display: inline-block;
+}
+
+.logo{
+    background-color: pink;
+    text-align: left;
+    justify-self: left;
+    background-clip: text;
+    color: transparent;
+    text-shadow: none;
 }
