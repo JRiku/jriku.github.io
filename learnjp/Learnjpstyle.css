@@ -1,5 +1,6 @@
 body {
     background-image: url("/learnjp/pics/Hokusaifuji.jpg");
+    background-size: cover;
     background: radial-gradient(circle at 100%, #300000, #3f0000 50%, #ff0000 75%, #ffffff 75%);
     background-color: rgb(255, 255, 255);
     height: 100%;
@@ -23,7 +24,7 @@ h1 {
     align-self: center;
     justify-self: center;
     width: 80%;
-    background-color: rgba(128, 128, 128, 0.74);
+    background-color: rgba(63, 63, 63, 0.925);
     padding: 22px;
 }
 
@@ -35,7 +36,6 @@ h1 {
     align-items: center;
     justify-content: flex-start;
     padding: 1rem 0;
-    background-color: lightgrey;
     border-radius: 22px;
 }
 
@@ -53,17 +53,22 @@ h1 {
 
 .logo {
     padding: 16px;
-    background-color: pink;
     text-align: left;
     justify-self: left;
     text-shadow: none;
     border-radius: 22px;
 }
 
+.CJK-J{
+    font-size: 45px;
+    font-family: Kaisei Decol;
+}
+
 .Slogan, .Slogan p{
     justify-self: center;
     font-size: clamp(48px, 4vw, 100px);
-    font-family: Noto Serif JP;
+    font-family: Noto Sans JP;
+    font-weight: bold;
     padding: 0;
     margin: 0;
     transition: letter-spacing, 1s;
@@ -78,13 +83,11 @@ h1 {
     max-width: 500px;
     display: block;
     justify-self: center;
-    align-self: center;
-    background: radial-gradient(farthest-side, rgb(26, 78, 247), rgba(72, 176, 202, 0));
-}
+    align-self: center;}
 
 .container {
     color: black;
-    background-color: lightgrey;
+    background-color: rgb(0, 0, 0);
     height: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -101,6 +104,7 @@ h1 {
     height: 50px;
     right: 0;
     left: 0;
+    background-color: lightgrey;
 }
 
 .socials {
