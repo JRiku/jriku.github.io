@@ -31,7 +31,6 @@ body{
     background-color: pink;
     text-align: left;
     justify-self: left;
-    background-clip: text;
-    color: transparent;
     text-shadow: none;
+    border-radius: 22px;
 }
