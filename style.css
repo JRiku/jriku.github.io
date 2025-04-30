@@ -1,12 +1,55 @@
 body {
+    background-image: url("learnjp/pics/flowers.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
     background-size: cover;
-    background: radial-gradient(circle at 100%, #300000, #3f0000 50%, #ff0000 75%, #ffffff 75%);
-    background-color: rgba(75, 75, 75, 0.527);
-    background-blend-mode: darken;
-    height: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+    background-blend-mode: difference;
+    width: 100%;
+    min-height: 100vh;
     font-family: Noto Sans Mono;
     font-size: 22px;
     color: white;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        height: 10%;
+        opacity: 22%;
+    }
+
+    to {
+        width: 100%;
+        height: 100%;
+        opacity: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.backgroundchar {
+    word-break: auto-phrase;
+    position: absolute;
+    height: 100%;
+    top: -30;
+    left: 0;
+    right: 0;
+    font-size: 65px;
+    font-family: Asebi Mincho;
+    color: rgba(255, 255, 255, 0.918);
+    animation:
+        typing 3.5s steps(40, end);
 }
 
 a {
@@ -20,11 +63,12 @@ h1 {
 }
 
 .grid {
+    border-radius: 4px;
     position: relative;
     align-self: center;
     justify-self: center;
     width: 60%;
-    background-color: rgba(63, 63, 63, 0.925);
+    background-color: rgba(63, 63, 63, 0.973);
     padding: 22px;
 }
 
@@ -81,7 +125,7 @@ h1 {
     transition: letter-spacing, 2s;
 }
 
-.encasement{
+.encasement {
     display: grid;
     grid-template-columns: 0.5fr 4fr;
 }
