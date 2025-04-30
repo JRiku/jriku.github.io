@@ -2,7 +2,8 @@ body {
     background-image: url("/learnjp/pics/Hokusaifuji.jpg");
     background-size: cover;
     background: radial-gradient(circle at 100%, #300000, #3f0000 50%, #ff0000 75%, #ffffff 75%);
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(75, 75, 75, 0.527);
+    background-blend-mode: darken;
     height: 100%;
     font-family: Noto Sans JP;
     font-size: 22px;
@@ -23,7 +24,7 @@ h1 {
     position: relative;
     align-self: center;
     justify-self: center;
-    width: 80%;
+    width: 60%;
     background-color: rgba(63, 63, 63, 0.925);
     padding: 22px;
 }
@@ -59,12 +60,13 @@ h1 {
     border-radius: 22px;
 }
 
-.CJK-J{
+.CJK-J {
     font-size: 45px;
-    font-family: Kaisei Decol;
+    font-family: Noto Sans JP;
 }
 
-.Slogan, .Slogan p{
+.Slogan,
+.Slogan p {
     justify-self: center;
     font-size: clamp(48px, 4vw, 100px);
     font-family: Noto Sans JP;
@@ -74,16 +76,16 @@ h1 {
     transition: letter-spacing, 1s;
 }
 
-.Slogan:hover, .Slogan p:hover{
+.Slogan:hover,
+.Slogan p:hover {
     letter-spacing: 2rem;
     transition: letter-spacing, 2s;
 }
 
-.overviewpic {
-    max-width: 500px;
-    display: block;
-    justify-self: center;
-    align-self: center;}
+.encasement{
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
 
 .container {
     color: black;
