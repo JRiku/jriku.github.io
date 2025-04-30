@@ -3,6 +3,11 @@
     src: url("/learnjp/fonts/AsebiMin-Light.otf");
 }
 
+@font-face{
+    font-family: Kaisei Decol;
+    src: url("/learnjp/fonts/KaiseiDecol-Regular.ttf");
+}
+
 body {
     background-image: url("learnjp/pics/flowers.jpg");
     background-position: top;
@@ -31,33 +36,10 @@ body {
     }
 }
 
-@Keyframes fontflicker {
-    0% {
-        font-family: ToronoGlitchSerif H1 Heavy;
-    }
-
-    20% {
-        font-family: ToronoGlitchSerif H2 Heavy;
-    }
-
-    40% {
-        font-family: ToronoGlitchSerif H3 Heavy;
-    }
-
-    60% {
-        font-family: ToronoGlitchSerif H4 Heavy;
-    }
-
-    80% {
-        font-family: ToronoGlitchSerif H2 Heavy;
-    }
-
-    100% {
-        font-family: ToronoGlitchSerif H4 Heavy;
-    }
-}
-
 .backgroundchar {
+    line-height: 1.6;
+    letter-spacing: 2;
+    user-select: none; 
     word-break: auto-phrase;
     position: absolute;
     height: 100%;
@@ -65,11 +47,10 @@ body {
     left: 0;
     right: 0;
     font-size: 65px;
-    font-family: Asebi Mincho;
+    font-family: Kaisei Decol;
     color: rgba(255, 255, 255, 0.918);
     animation:
-        typing 3.5s steps(40, end),
-        fontflicker 5s 100ms infinite forwards;
+        typing 3.5s steps(40, end);
 }
 
 a {
