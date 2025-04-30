@@ -31,15 +31,29 @@ body {
     }
 }
 
-@keyframes blink-caret {
-
-    from,
-    to {
-        border-color: transparent
+@Keyframes fontflicker {
+    0% {
+        font-family: ToronoGlitchSerif H1 Heavy;
     }
 
-    50% {
-        border-color: orange;
+    20% {
+        font-family: ToronoGlitchSerif H2 Heavy;
+    }
+
+    40% {
+        font-family: ToronoGlitchSerif H3 Heavy;
+    }
+
+    60% {
+        font-family: ToronoGlitchSerif H4 Heavy;
+    }
+
+    80% {
+        font-family: ToronoGlitchSerif H2 Heavy;
+    }
+
+    100% {
+        font-family: ToronoGlitchSerif H4 Heavy;
     }
 }
 
@@ -54,7 +68,8 @@ body {
     font-family: Asebi Mincho;
     color: rgba(255, 255, 255, 0.918);
     animation:
-        typing 3.5s steps(40, end);
+        typing 3.5s steps(40, end),
+        fontflicker 5s 100ms infinite forwards;
 }
 
 a {
