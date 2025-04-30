@@ -1,9 +1,14 @@
+@font-face {
+    font-family: Asebi Mincho;
+    src: url("/learnjp/fonts/AsebiMin-Light.otf");
+}
+
 body {
     background-image: url("learnjp/pics/flowers.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.918);
+    background-color: #000000;
     background-blend-mode: difference;
     width: 100%;
     min-height: 100vh;
