@@ -1,10 +1,10 @@
 body {
     background-size: cover;
-    background: radial-gradient(circle at 100%, #300000, #3f0000 50%, #ff0000 75%, #ffffff 75%);
+    background-image: url("pics/Fujibg.jpg");
     background-color: rgba(75, 75, 75, 0.527);
     background-blend-mode: darken;
     height: 100%;
-    font-family: Noto Sans JP;
+    font-family: Noto Sans Mono;
     font-size: 22px;
     color: white;
 }
