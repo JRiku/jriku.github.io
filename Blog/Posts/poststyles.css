@@ -110,3 +110,19 @@ h1 {
 .updatedstatus {
     font-family: Noto Sans JP;
 }
+
+pre{
+    font-size: 10px;
+    font-family: Noto Sans Mono, monospace;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+}
+
+.codegrid{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 35% 45% 35%;
+    justify-content: center;
+    align-content: center;
+}
