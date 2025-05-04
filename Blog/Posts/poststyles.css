@@ -81,11 +81,6 @@ h1 {
     transition: letter-spacing, 2s;
 }
 
-.encasement{
-    display: grid;
-    grid-template-columns: 0.5fr 4fr;
-}
-
 .container {
     color: black;
     background-color: rgb(0, 0, 0);
