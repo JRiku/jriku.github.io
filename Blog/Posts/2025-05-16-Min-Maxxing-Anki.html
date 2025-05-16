@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Min-Maxxing Anki | JRiku</title>
+    <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="poststyles.css">
+</head>
+
+<body>
+
+</body>
+<div class="grid">
+    <div class="top">
+        <div class="logo">
+            <p class="logo">
+                <span class="CJK-J">JR!ku</span>
+            </p>
+        </div>
+        <div class="Whataboutism">
+            <a href="https://jriku.github.io/">About</a>
+        </div>
+        <div class="JPsg">
+            <a href="/learnjp/">Japanese</a>
+        </div>
+        <div class="slacking">
+            <a href="/Posts/index.html">Blogs</a>
+        </div>
+    </div>
+    <div class="mid">
+        <h1 id="min-maxxing-of-anki">Min-maxxing of Anki</h1>
+        <h2 id="settings">Settings</h2>
+        <p>I&#39;d recommend watching the Installation and use of Anki guide by <a
+                href="https://www.youtube.com/watch?v=DcY2Svs3h8M">Jouzu Juls</a>, the rest is all my own opinion and
+            what I found useful in 3 years of using Anki</p>
+        <p>I found that not showing the next review time above answer buttons really helps since you don&#39;t consider
+            card times anymore</p>
+        <h2 id="cards">Cards</h2>
+        <p>Oftentimes pre-made decks have bad or lacking formatting. Fortunately Anki cards use simple HTML and CSS. If
+            you want to change it you either ask ChatGPT or Deepseek to get it changed (tiresome) or you do like a 4
+            hour html and css course and it is quite simple to set up.</p>
+        <p>Some quirks of <a href="https://docs.ankiweb.net/templates/intro.html">Anki html</a> on the side:</p>
+        <p><a href="https://docs.ankiweb.net/templates/fields.html">Field replacements</a>:</p>
+        <p>{{Field name}} is what you need to add into the html code for it to actually display the field&#39;s content
+            and case does matter.</p>
+        <p>if a field only contains an image then (even though it&#39;s not written into the html) you can manipulate it
+            in css via the img functionality.</p>
+        <p>To change anything about the default text input box you have to use &quot;input{...: !important;}&quot; for
+            it to change anything</p>
+        <p><a href="https://docs.ankiweb.net/templates/fields.html#text-to-speech-for-individual-fields">Text to speech
+                functionality</a>:</p>
+        <p>Works with {{tts language_LANGUAGE-VARIANT:Field name}} and the language has to be specified for it to
+            work(language codes can be found <a
+                href="https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=overview-locales-code-pages-supported">here</a>
+            for Japanese it is jp_JP)</p>
+        <p><a href="https://docs.ankiweb.net/templates/fields.html#ruby-characters">Ruby (furigana) functionality</a>:
+        </p>
+        <p>Your fields have to be in the format 世[よ]の 中[なか] meaning first the Kanji, then the Kana in brackets and where
+            a new furigana is supposed to start there has to be a space before the Kanji, Yomitan as well as the AJT
+            Japanese add-on do this automatically but there might still be mistakes.</p>
+        <p><a href="https://docs.ankiweb.net/templates/fields.html#dictionary-links">Dictionary links</a>:</p>
+        <p>You can add dictionary links through links like
+            &lt;a href="https://jisho.org/search/{{field name}}"&gt; </p>
+        <h2 id="add-ons">Add-ons</h2>
+        <h3 id="editing">Editing</h3>
+        <h4 id="-1898445115-https-ankiweb-net-shared-info-1898445115-advanced-copy-fields"><a
+                href="https://ankiweb.net/shared/info/1898445115" target="_blank">1898445115</a> - Advanced Copy Fields</h4>
+        <p>Allows you to switch, replace and move fields easily</p>
+        <h4 id="-1344485230-https-ankiweb-net-shared-info-1344485230-ajt-japanese"><a
+                href="https://ankiweb.net/shared/info/1344485230" target="_blank">1344485230</a> - AJT Japanese</h4>
+        <p>Allows you to easily add furigana and pitch accent patterns to cards</p>
+        <h4 id="-291119185-https-ankiweb-net-shared-info-291119185-batch-editing"><a
+                href="https://ankiweb.net/shared/info/291119185" target="_blank">291119185</a> - Batch Editing</h4>
+        <p>Allows you to add information to a specific field or systematically replace the content of a specific field
+            among multiple cards</p>
+        <h4 id="-1374772155-https-ankiweb-net-shared-info-1374772155-image-occlusion-enhanced"><a
+                href="https://ankiweb.net/shared/info/1374772155" target="_blank">1374772155</a> - Image Occlusion Enhanced</h4>
+        <p>Allows you to block parts of an image to test yourself</p>
+        <h3 id="appearance">Appearance</h3>
+        <h4 id="-1210908941-https-ankiweb-net-shared-info-1210908941-custom-background-image-and-gear-icon"><a
+                href="https://ankiweb.net/shared/info/1210908941" target="_blank">1210908941</a> - Custom Background Image and Gear Icon
+        </h4>
+        <p>Allows you to change your Anki wallpaper from basic grey to a specified image and change the opacity </p>
+        <h5 id="setup">Setup</h5>
+        <p>After installation a new tab will be available at the top called AnKing, click it and click on Custom
+            Background and Gear Icon --&gt; click on Open Image Folders --&gt; add your preferred wallpaper --&gt; go
+            back to the window and click on the three dots on the right --&gt; select your wallpaper</p>
+        <h3 id="information">Information</h3>
+        <h4 id="-1828617820-https-ankiweb-net-shared-info-1828617820-kanji-table"><a
+                href="https://ankiweb.net/shared/info/1828617820" target="_blank">1828617820</a> - Kanji Table</h4>
+        <p>Allows you to have an overview over your knowledge of Kanji, sorted quite neatly</p>
+        <h4 id="-1508357010-https-ankiweb-net-shared-info-1508357010-review-heatmap"><a
+                href="https://ankiweb.net/shared/info/1508357010" target="_blank">1508357010</a> - Review Heatmap</h4>
+        <p>Adds a heatmap graph to Anki&#39;s main window, which visualizes your past and future card review activity
+        </p>
+        <h4 id="-1613056169-https-ankiweb-net-shared-info-1613056169-search-stats-extended"><a
+                href="https://ankiweb.net/shared/info/1613056169" target="_blank">1613056169</a> - Search Stats Extended</h4>
+        <p>Adds tons of new statistics to Anki&#39;s deck stat page which can help you identify weakpoints or
+            strongpoints in your reviewing style or help you identify trends (e.g. rising review speed can show that
+            you&#39;re doing Anki at the wrong times of the day where you&#39;re less concentrated)</p>
+        <h4
+            id="-613684242-https-ankiweb-net-shared-info-613684242-1779060522-https-ankiweb-net-shared-info-1779060522-true-retention-simplified-and-standard-">
+            <a href="https://ankiweb.net/shared/info/613684242" target="_blank">613684242</a> + <a
+                href="https://ankiweb.net/shared/info/1779060522" target="_blank">1779060522</a> - True Retention (simplified and
+            standard)
+        </h4>
+        <p>If you hold shift while clicking the stat screen it shows you your true retention for that deck which is more
+            accurate than Anki&#39;s Retention based solely on how often you pressed the Again button</p>
+        <h3 id="review">Review</h3>
+        <h4 id="-1868980340-https-ankiweb-net-shared-info-1868980340-ankidraw"><a
+                href="https://ankiweb.net/shared/info/1868980340" target="_blank">1868980340</a> - AnkiDraw</h4>
+        <p>Allows you to draw and write into your anki card (temporarily) using your mouse or drawing tablet
+            (perfect for practicing handwriting)</p>
+        <h4 id="-876946123-https-ankiweb-net-shared-info-876946123-pass-fail"><a
+                href="https://ankiweb.net/shared/info/876946123" target="_blank">876946123</a> - Pass/Fail</h4>
+        <p>Removes the Again and Easy button from your Anki reviewer thereby forcing you to either decide between
+            knowing the card (pass) or to fail.
+            Also: Anki fsrs (scheduling system) is bad with again and easy reviews and schedules them badly, so sticking
+            to fail and good also leads to a better and more accurate algorithm</p>
+        <h3 id="focus">Focus</h3>
+        <h4 id="-1508357010-https-ankiweb-net-shared-info-1508357010-remaining-time"><a
+                href="https://ankiweb.net/shared/info/1508357010" target="_blank">1508357010</a> - Remaining time</h4>
+        <p>Adds a bar to the top that tells you how long you will need to finish your current deck at your current pace
+        </p>
+        <h4 id="-715575551-https-ankiweb-net-shared-info-715575551-life-drain"><a
+                href="https://ankiweb.net/shared/info/715575551" target="_blank">715575551</a> - Life Drain</h4>
+        <p>Adds a bar to the bottom that counts down and only refills once you finish your card. Great for pacing
+            yourself and making sure you don&#39;t spend too long on one card</p>
+        <h5 id="setup">Setup</h5>
+        <p>If you have a specific time per deck you want to achieve then you should set your total health to your
+            average cards a day multiplied by your card time and set the Answer recover to your desired time per card,
+            when you&#39;re faster than desired you will gain life and if you&#39;re slower then your life will fall</p>
+        <p>Also, for visual appeal I would set it to be on the top and be really just like two to three pixels tall and
+            to let it start from 0 on the right</p>
+        <h3 id="gamification">Gamification</h3>
+        <h4 id="-1951446409-https-ankiweb-net-shared-info-1951446409-advanced-answer-sounds"><a
+                href="https://ankiweb.net/shared/info/1951446409" target="_blank">1951446409</a> - Advanced Answer Sounds</h4>
+        <p>Allows you to add custom Sounds that play when you answer a word correct or wrong</p>
+        <h4 id="-231569866-https-ankiweb-net-shared-info-231569866-audiovisual-feedback"><a
+                href="https://ankiweb.net/shared/info/231569866" target="_blank">231569866</a> - Audiovisual Feedback</h4>
+        <p>Makes the edges of your screen flash green or red depending on if you got the card right or wrong</p>
+        <h2 id="anki-livesplits">Anki livesplits</h2>
+        <p>If you realize that you&#39;re taking way too long for your Anki and often lose focus then <a
+                href="https://livesplit.org/">livesplits</a> are the ultimate solution. </p>
+        <h3 id="setup">Setup</h3>
+        <p>Note down your average cards per day and average review time for each of your decks.
+            By multiplying these you can find out how long you take on average per day. Now you have to consider if how
+            much you want to shave off of your daily Anki. Livesplit uses cumulative times meaning that split 1 is just
+            one time, split 2 is the time for split 2 + the time of split 1 and so on, so you need to calculate them up.
+            For me personally I limit my anki to 45 minutes for about 650 cards I do per day on average. For that I
+            calculated my average times, gave them to chatGPT and told it to shave off, where I have the fewest cards
+            and to leave time for the bigger decks. That way it&#39;s dynamic for you to be able to achieve your goal
+            without constantly falling behind on one deck and then being five minutes too early on another deck. </p>
+        <p>After you calculated how long you may take per deck you will want to set up your splits, right click the
+            livesplits application and go on edit splits, then you name them in the order you want to do your decks and
+            put in a new comparison, into that comparison you will want to put your desired times in cumulative form.
+            Hit OK and right click the livesplits application again, then you click on edit layout and add your splits,
+            the detailed timer, the previous segment, the current pace and the graph (set to your comparison).</p>
+        <p>Boom, you&#39;re set to go</p>
+
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <div class="socials">
+                <p>
+                    Discord: julian_riku
+                </p>
+            </div>
+            <div>
+                <p>
+                    What am I even doing here???
+                </p>
+            </div>
+            <div class="updatedstatus">
+                <p>
+                    last updated: <time datetime="2025-04-30">2025.05.16</time>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</html>
