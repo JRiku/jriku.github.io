@@ -221,3 +221,105 @@ By multiplying these you can find out how long you take on average per day. Now 
 After you calculated how long you may take per deck you will want to set up your splits, right click the livesplits application and go on edit splits, then you name them in the order you want to do your decks and put in a new comparison, into that comparison you will want to put your desired times in cumulative form. Hit OK and right click the livesplits application again, then you click on edit layout and add your splits, the detailed timer, the previous segment, the current pace and the graph (set to your comparison).
 
 Boom, you're set to go
+
+# My Anki deck collection
+
+ This page is mainly for recovery purposes that if some backup fails I can refind my decks easily again
+
+## General Sorting
+
+0. 仏教
+1. Japanese
+    - All my Japanese study, divided into three parts
+        1. Daily Study
+            - Conversational everyday Japanese and my Mining deck
+            1. 言葉
+                1. 日本語のみ
+                2. 英語含む
+                    1. 2k6k deck
+                        my first 6000 words (premade deck [1k](https://ankiweb.net/shared/info/2084502846) [2k](https://ankiweb.net/shared/info/1121302366) [3k](https://ankiweb.net/shared/info/1380135507) [4k](https://ankiweb.net/shared/info/636251729) [5k](https://ankiweb.net/shared/info/1038695617) [6k](https://ankiweb.net/shared/info/1863168610))
+                    2. English yomitan
+            2. 文法
+                - N5 to N1 grammar as anki deck ([premade](https://ankiweb.net/shared/info/712621384))
+        2. Modern Kanji
+            - Everything that's more about Kanji and not necessarily about the word itself
+                1. Single Kanji
+                    Pure Kanji study
+                    1. 漢字
+                        1. 漢検
+                            - Premade deck with all 6000 Kanji needed for Kanken level 1 ([here](https://ankiweb.net/shared/info/1833474130)) 
+                        2. 音・訓
+                            - Premade Kanji deck specializing in Kanken 1 Kanji and their handwriting ([here](https://ankiweb.net/shared/info/286711521); split this deck into many subdecks)
+                    2. 国字
+                        - Handmade deck with all Kanji made in Japan (139 cards)
+                2. Multiple Kanji
+                    1. 諺
+                        - Japanese traditional sayings
+                    2. 四字熟語
+                        - Japanese sayings from classical Chinese Texts
+                    3. 当て字
+                        - Japanese flower & plant names as well as other phonological use of Kanji
+                    4. 難読漢字
+                        - Hard to read Kanji
+        3. Kanken
+            1. Vocabulary & Usage in Context
+                1. 故事成語
+                    - Handwriting practice for Japanese sayings
+                2. 対類
+                    - Synonyms and Antonyms (very hard)
+                3. 四字熟語意味
+                    - Handwriting practice for classical Chinese sayings
+            2. Place & Proper Names
+                1. 人名用漢字
+                    - Most common Japanese surnames
+                2. 国名
+                    - Ateji of foreign Countries
+            3. Handwriting practice
+                1. Kanji
+                    1. Kanken 1
+                    2. Kanken 10-2
+                    3. 部首
+                        - All the names for the radicals (premade)
+                2. Multiple Kanji
+                    1. 四字熟語書き取り
+                    2. 当て字書き取り
+                    3. 難読漢字書き取り
+            4. Old Writing System
+                1. 変体仮名
+                    - Alternative Hiragana forms
+                2. 旧字体
+                    - Pre-WW2 Kanji forms
+            5. Obscure Japanese
+                1. 敬語
+                    - formal Japanese
+                        1. 尊敬語
+                        2. 謙譲語
+                2. 古文
+                    1. 枕詞
+                        - Literary descriptions of places all throughout Japan used in Haiku
+2. Spanish
+    1. Spanish mining
+    2. Frequency
+        1. Top 1000 most common words
+        2. Top 5000 most common words
+3. 汉语
+    1. Current HSK
+        1. HSK 1
+        2. HSK 2
+        3. HSK 3
+4. Misc
+    1. Maps
+        1. Japanese prefecture capitals
+        2. Schweizer Kantone
+        3. World Map
+        4. 令制国
+            1. 大国
+            2. 上国
+            3. 中国
+            4. 下国
+    2. Scripts
+        1. Deutsche Kurrentschrift
+    3. 年号
+    4. 接頭語・接尾語
+        1. 和語
+        2. 漢語
