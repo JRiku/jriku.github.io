@@ -323,3 +323,76 @@ Boom, you're set to go
     4. 接頭語・接尾語
         1. 和語
         2. 漢語
+
+0. 仏教
+    1. Dhammapada (Sayings of the Buddha) 
+    2. 仏教用語
+1. Japanese
+    1. 日常会話
+        1. 言葉
+            1. 日本語のみ (Yomitan-mined words in Monolingual definition)
+            2. 英語含み
+                1. 2k6k (premade deck [1k](https://ankiweb.net/shared/info/2084502846) [2k](https://ankiweb.net/shared/info/1121302366) [3k](https://ankiweb.net/shared/info/1380135507) [4k](https://ankiweb.net/shared/info/636251729) [5k](https://ankiweb.net/shared/info/1038695617) [6k](https://ankiweb.net/shared/info/1863168610))
+                2. 読み英語 (Yomitan-mined words with Bilingual definition)
+        2. 文法 [premade](https://ankiweb.net/shared/info/712621384)
+    2. 現代漢字
+        1. Single Kanji
+            1. 漢字 
+                1. 漢検 (All Kanken level 10-1 Kanji with their Readings and Meanings) [here](https://ankiweb.net/shared/info/1833474130)
+                2. 漢検一級読み取り (Kanken-style guess the 音読み and 訓読み cards, specifically for Kanken 1) [here](https://ankiweb.net/shared/info/286711521)
+                3. 訓読み (Reading practice for Kanken 1 Kanji)
+                4. 音読み (Same as 訓読み except that it tests the other reading)
+                5. 読み漢字 (Yomitan-mined Kanji cards)
+            2. 国字 (All Kanji made in Japan)
+        2. Multiple Kanji
+            1. 諺 (Japanese traditional sayings) [here](https://ankiweb.net/shared/info/446214164)
+            2. 四字熟語 (Four character compounds, typically from Chinese) [here](https://ankiweb.net/shared/info/1570290506)
+            3. 熟字訓・当て字 (Phonetic use of Kanji instead of for their meaning, includes tons of plant names)
+            4. 難読漢字 (Hard to read Kanji, often with obscure meaning) [here](https://ankiweb.net/shared/info/643386433)
+    3. 日本語漢字能力検定
+        1. 国名・人名
+            1. 人名用漢字 (Practice for reading names)
+            2. 国名 (Kanji representations of Country names)
+        2. 習字
+            1. Kanji
+                1. 漢検十級から二級 (Handwriting practice from Kanken 10 - 2 with Native sound) [Part 1](https://ankiweb.net/shared/info/759825185) [Part 2](https://ankiweb.net/shared/info/1113953752)
+            2. Multiple Kanji
+                1. 故事成語・諺 (Handwriting practice for one word in a Japanese idiom)
+                2. 四字熟語 (Handwriting practice for four character compounds, half the idiom is given and the rest has to be completed)
+                3. 熟字訓・当て字書き取り (Reading and meaning is  given and Kanji has to be handwritten)
+                4. 難読漢字書き取り (Same as above, both are repurposed memorize the meaning decks)
+                5. 対類 (Handwriting/memorize the synonym/antonym deck)
+            3. Radicals (List of all 214 Kanji radicals, all 7 radical positions and example Kanji from that Radical)
+        3. 旧字・旧仮名
+            1. 変体仮名 (alternative Hiragana, doubles as reading practice of cursive (草書) Japanese) [here](https://ankiweb.net/shared/info/329800646)
+            2. 旧字体 (Handwriting practice of pre-simplification Kanji, useful for studying older documents) [here](https://ankiweb.net/shared/info/1701090991)
+        4. Obscure Japanese
+            1. 敬語
+                1. 尊敬語 (Plain form given and have to think of Keigo word)
+                2. 謙譲語 (same as above)
+            2. 古文
+                1. 古文 (Yomitan-mined words that have a weblio 古語辞典 entry)
+                2. 枕詞 (Subset of 古語辞典 entries that are 枕詞, meaning they are used in poetry as substitues or hints at locations)
+2. Spanish
+    1.  Spanish Mining (Yomitan-mined Spanish words)
+    2.  Frequency (Most common 5,500 Spanish words)
+3. 汉语
+    1. Vocab
+        1. Yomitan CN (Yomitan-mined Chinese words)
+        2. premade (Mix of a couple of Mandarin HSK anki decks)
+            1. premade Vocab cards 
+            2. HSK-sorted 
+    2. Handwriting (Repurposed the premade Vocab cards deck)
+4. Misc
+    1. Maps
+        1. Japanese prefecture capitals
+        2. Schweizer Kantone (Swiss states/prefectures)
+        3. World map
+        4. 令制国 (Provinces of Japan until 1868)
+    2. Scripts
+        1. Deutsche Kurrentschrift (Old form of German cursive handwriting)
+    3. 年号 (Japanese era names)
+    4. Suspended Mining cards (Yomitan-mined cards that I failed way too much, I don't understand the definition or I just generally don't desire to study)
+    5. 接頭語・接尾語 (Prefixes and )
+        1. 和語
+        2. 漢語
