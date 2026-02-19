@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | JRiku</title>
+  <link rel="icon" type="image/x-icon" href="learnjp/pics/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid">
+    <div class="top">
+      <div class="logo">
+        <p class="logo">
+          <span class="CJK-J">JR!ku</span>
+        </p>
+      </div>
+      <div class="Whataboutism">
+        <a href="https://jriku.github.io/">About</a>
+      </div>
+      <div class="JPsg">
+        <a href="/learnjp/">Japanese</a>
+      </div>
+      <div class="slacking">
+        <a href="https://jriku.github.io/Blog/index.html">Blogs</a>
+      </div>
+      <div class="Photography">
+        <a href="/learnjp/">Photography</a>
+      </div>
+    </div>
+    <div class="mid">
+      <h1>
+       Photography Portfolio
+      </h1>
+    <p>
+      Recently started getting into photography and thought I could share some of my pics here.
+      I was always quite fond of taking pictures ever since I got my first phone with a camera and since I'm planning to go to Japan in May 
+      and regretted not having one the first time I went, 
+      I did the calculations and found out I could afford one for this trip.
+    </p>
+    </div>"
+
+    <div class="bottom">
+      <div class="container">
+        <div class="socials">
+          <p>
+            Discord: julian_riku
+          </p>
+        </div>
+        <div>
+          <p>
+            What am I even doing here???
+          </p>
+        </div>
+        <div class="updatedstatus">
+          <p>
+            last updated: <time datetime="2025-04-30">2025.04.30</time>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
